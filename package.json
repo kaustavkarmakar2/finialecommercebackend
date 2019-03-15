@@ -1,0 +1,41 @@
+{
+  "name": "ecommerce",
+  "version": "0.0.1",
+  "private": false,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "aws-sdk": "^2.413.0",
+    "body-parser": "latest",
+    "connect-flash": "^0.1.1",
+    "connect-mssql": "^1.5.0",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.13.4",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "memory": "0.0.3",
+    "mongoose": "^4.5.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.4.1",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.0.1",
+    "package": "^1.0.1",
+    "package-lock": "^1.0.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "description": "",
+  "author": "",
+  "license": "ISC"
+}
