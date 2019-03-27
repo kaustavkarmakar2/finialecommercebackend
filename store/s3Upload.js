@@ -1,9 +1,8 @@
 const AWS = require('aws-sdk');
 const async = require('async');
-//const bucketName = "cq-upload-profile"
+
 const path = require('path');
 const fs = require('fs');
-//let pathParams, image, imageName;
 
 /** Load Config File */
 AWS.config.loadFromPath('./config/s3bucketConfig.json');
@@ -31,7 +30,7 @@ let createMainBucket = (productimageUrltest) => {
 			} else {
 				resolve(data)
 			}
-		 })
+		})
 	})
 }
 
@@ -52,9 +51,9 @@ const deleteObjectFromBucket = (productimageUrltest, objectKey) => {
 	})
 }
 
-const createItemObject = (profilepicturewqtest, imageName, image) => {
+const createItemObject = (productpictureecommercetest, imageName, image) => {
   const params = {
-        Bucket: profilepicturewqtest,
+        Bucket: productpictureecommercetest,
         Key: `${imageName}`,
         ACL: 'public-read',
         Body:image

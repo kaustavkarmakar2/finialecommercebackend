@@ -1,5 +1,5 @@
 
-exports.generate = function(error,message,status,data){
+module.exports.generate = function(error,message,status,data){
 	var myResponse = {
         error: error,
         message: message,
